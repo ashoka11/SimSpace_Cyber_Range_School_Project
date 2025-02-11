@@ -15,6 +15,7 @@ Snort
 
 2. Identified Threats & Vulnerabilities
 During the analysis, the following security vulnerabilities and attack patterns were identified:
+
 1. EternalBlue Exploit
 * Exploits SMBv1 vulnerability (CVE-2017-0144).
 * Used for remote code execution and ransomware deployment.
@@ -35,7 +36,7 @@ During the analysis, the following security vulnerabilities and attack patterns 
 * Can be used for session hijacking or connection termination.
 * Identified through irregular TCP sequences and retransmissions.
 
-3. Methodology
+3. Methodology: 
 Step 1: Setting Up the Cyber Range VM
 * PCAP files were transferred to a virtual machine within SimSpace Cyber Range.
 * Security analysis tools (Wireshark, NetworkMiner, Snort) were installed.
