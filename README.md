@@ -1,4 +1,4 @@
-#SimSpace_Cyber_Range_School_Project
+**#SimSpace_Cyber_Range_School_Project**
 
 Overview
 This project focuses on analyzing network traffic from a collection of 15 PCAP files within a SimSpace Cyber Range virtual machine environment. The goal was to identify and investigate malicious activity using Wireshark, NetworkMiner, and Snort. The analysis revealed multiple cybersecurity threats and vulnerabilities, providing valuable insights into real-world attack vectors and network forensics techniques.
