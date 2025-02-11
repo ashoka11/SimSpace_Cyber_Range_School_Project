@@ -16,7 +16,8 @@ Snort
 
 2. Identified Threats & Vulnerabilities:-
 During the analysis, the following security vulnerabilities and attack patterns were identified:
-
+1.
+1.
 1. EternalBlue Exploit
 * Exploits SMBv1 vulnerability (CVE-2017-0144).
 * Used for remote code execution and ransomware deployment.
