@@ -15,22 +15,22 @@ Snort
 
 2. Identified Threats & Vulnerabilities
 During the analysis, the following security vulnerabilities and attack patterns were identified:
- 1. EternalBlue Exploit
+  1. EternalBlue Exploit
       * Exploits SMBv1 vulnerability (CVE-2017-0144).
       * Used for remote code execution and ransomware deployment.
       * Detected through anomalous SMB traffic patterns.
       
- 2. ARP Poisoning (Man-in-the-Middle Attack)
+  2. ARP Poisoning (Man-in-the-Middle Attack)
       * Alters ARP tables to intercept network traffic.
       * Used to eavesdrop on sensitive data or redirect traffic.
       * Detected through abnormal ARP request/reply behavior.
       
- 3. ICMP Flood (Denial-of-Service Attack)
+  3. ICMP Flood (Denial-of-Service Attack)
       * Overwhelms a target system with excessive ICMP Echo Requests (ping flood).
       * Causes network performance degradation.
       * Identified via excessive ICMP traffic volume.
   
- 4. Broken TCP ACK (TCP Injection Attack)
+  4. Broken TCP ACK (TCP Injection Attack)
       * Manipulates TCP ACK flags to disrupt communication.
       * Can be used for session hijacking or connection termination.
       * Identified through irregular TCP sequences and retransmissions.
